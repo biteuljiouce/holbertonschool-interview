@@ -48,6 +48,6 @@ listint_t *insert_node(listint_t **head, int number)
 	newItem->next = current->next;
 	current->next = newItem;
 
-	/*pointer to new item return */
+	/* returns pointer to new item */
 	return (*head);
 }
